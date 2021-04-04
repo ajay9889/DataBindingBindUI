@@ -1,3 +1,4 @@
 package com.anushka.androidtutz.bindingdemo1
-
-data class Student()
+data class Student(val name: String ,
+          val email: String
+          )
